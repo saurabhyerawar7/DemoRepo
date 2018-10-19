@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ExtendendReport.Testreport
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 8.713 sec <<< FAILURE!
+test(ExtendendReport.Testreport)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected [AdminLTE 2 | Log in1] but found [AdminLTE 2 | Log in]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at ExtendendReport.Testreport.test(Testreport.java:72)
+
+tearown(ExtendendReport.Testreport)  Time elapsed: 0.044 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at ExtendendReport.Testreport.tearown(Testreport.java:79)
+
